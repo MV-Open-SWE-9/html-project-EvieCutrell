@@ -2,6 +2,21 @@ body {
     background-color: darkgray;
 }
 
+footer {
+    background-color: black;
+    color: aliceblue;   
+    padding: 0; 
+    margin: 0;
+}
+
+footer a:link{
+    color :aqua;
+}
+
+footer a:visited {
+    color: cadetblue;
+}
+
 #homeNavBar {
     list-style-type: none;
     margin: 0;
@@ -38,6 +53,8 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-between;
+    margin: 0;
+    padding-bottom: 0;
 }
 
 #profilePic{
