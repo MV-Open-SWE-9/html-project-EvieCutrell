@@ -1,0 +1,68 @@
+body {
+    background-color: darkgray;
+}
+
+#homeNavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: powderblue;
+    color: black;
+}
+
+.active {
+    background-color: slategrey;
+    color: white;
+}
+
+.bottomLayer{
+    background-color: powderblue;
+    font-size: 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-between;
+}
+
+#profilePic{
+    width: 30vw;
+    height: 80vh;
+}
+
+#homeQuote{
+    text-align: center;
+    display: inline-flexbox;
+}
+
+.image{
+    width:20vw;
+    height: 30vh;
+}
+
+#aboutMeText {
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#homeName {
+    text-align: center;
+    text-shadow: 5px 2px 4px rgb(56, 66, 202);
+}
